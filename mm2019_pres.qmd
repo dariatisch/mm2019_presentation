@@ -1,0 +1,179 @@
+---
+title: "Top Vermögen und ihre Ursprünge.  <br> Eine Analyse Deutschlands größter privater Vermögen"
+author: "<br>  Daria Tisch¹ & Emma Ischinky¹ <br>  <br> ¹Max Planck Institute for the Study of Societies"
+subtitle: "Frühjahrstagung der DGS-Sektion <br>  'Soziale Ungleichheit und Sozialstrukturanalyse'  <br>  <br>  23. März 2023"  
+format: 
+  revealjs:
+    theme: [default, custom.scss]
+    preview-links: auto
+    chalkboard: 
+      boardmarker-width: 5
+editor: visual
+slide-number:
+  c
+  #https://quarto.org/docs/publishing/github-pages.html#render-to-docs
+#bibliography: references.bib
+bibliography: references.bib
+---
+
+## Einleitung
+
+-   Vermögensungleichheit auf hohem Niveau [@albers2022; @piketty2014]
+
+-   Vermögen sind stark konzentriert in den Händen weniger Familien
+
+-   Kleine Gruppe, die überproportional viel politische und ökonomische Macht und sozialen Einfluss ausüben kann [@keister2021]
+
+### Forschungslücke
+
+-   Sozialer Hintergrund dieser Gruppe
+
+-   Soziale Mobilität innerhalb dieser Gruppe?
+
+## Forschungsfrage und Motivation
+
+::: {style="font-size: 1.5em"}
+<br> [Was sind die historischen Hintergründe heutiger top Vermögen in Deutschland?]{style="color:darkred"} <br>
+:::
+
+-   Top Vermögen und ökonomische Prozesse
+-   Soziale Schließungsprozesse
+-   Verfestigte Machtstrukturen
+-   Legitimierung von Reichtum
+
+## Theoretischer Hintergrund
+
+-   Vermögenspositionen sind wie Hotels "each class resembles a hotel or an omnibus, always full, but always of different people"[@schumpeter1972]
+
+::: notes 
+sth 
+:::
+
+## Konzeptionalisierung und Maße für historische Ursprünge von top Vermögen
+
+-   Self-made versus geerbt [@hansen2014; @korom2017]
+-   "Entrenchment" / Verwurzelung [@starr2019]
+    -   Historischen Ursprünge als ein wichtiger Aspekt der Verwuzelung der ökonomischen Elite
+    -   Indikator für die Verwurzelung von Vermögen in Familienlininien: Vermögen überlebt ökonomische und soziale of the entrenchment of a fortune within a family is whether it has survived economic and social Umbrüche (Regimewechsel, wirtschaftliche Krisen, Kriege)
+
+::: notes
+This conceptualization of historical origins is widely applied and has been found useful to explain social closure and mobility within the wealth elite (Hansen 2014; Korom, Lutter, and Beckert 2017) but also to better understand economic processes (Morck, Stangeland, and Yeung 2000).
+
+"society's entrenched features---the foundational features that are hardest to change---shape what kind of society it is" (Starr 2019, xii).
+:::
+
+## Empirisches Vorgehen / Analysen
+
+-   Analyse der Gründungsjahre der Firmen, die mit heutigen Vermögen in Zusammenhang stehen
+-   Identifizierung der verwurzelten Vermögen
+-   Analyse, inwiefern sich die verwurzelten von jüngeren Vermögen unterscheiden (Deskriptiv, Regression)
+-   Netzwerkanalyse: Familiäre Verbindungen zwischen größten Vermögen?
+
+::: notes
+sth
+:::
+
+## Datengrundlage
+
+::: columns
+::: {.column width="40%"}
+![](pics/reichenheft_front.png){.absolute top="100" left="0" width="350"}
+:::
+
+::: {.column width="60%"}
+-   Manager Magazin Reichenliste 2019
+    -   Deutschlands größten 1032 Vermögen
+    -   Familiennamen
+    -   Vermögenshöhe / Rang
+-   Rudolf Martin's Reichenliste 1913/1914 [@martin1912]
+-   Wikidata
+    -   Familienmitglieder
+    -   Verknüpfung über ein Jahrhundert
+:::
+:::
+
+::: notes
+:::
+
+## Charakteristiken der Vermögenselite
+
++----------------------+----------------------+-----------------+
+|                      | Verwurzelte Vermögen | Andere Vermögen |
+|                      |                      |                 |
+|                      | N = 82               | N= 950          |
+|                      |                      |                 |
+|                      | Shares               | Shares          |
++======================+======================+=================+
+| Adel                 | 35%                  | 1%              |
++----------------------+----------------------+-----------------+
+| Unternehmen verkauft | 24%                  | 18%             |
++----------------------+----------------------+-----------------+
+| Familienstiftung     | 5%                   | 7%              |
++----------------------+----------------------+-----------------+
+| Unternehmensstiftung | 1%                   | 3%              |
++----------------------+----------------------+-----------------+
+
+## Top Vermögen nach Gründungsjahren
+
+![](pics/figure_01.jpeg){fig-align="center"}
+
+::: notes
+sth
+:::
+
+## Geographische Verteilung der Top Vermögen
+
+![](pics/figure_02.jpeg){fig-align="center"}
+
+::: notes
+sth
+:::
+
+## Regressionsergebnisse: Rangplatz
+
+![](pics/figure_03.jpeg){fig-align="center"}
+
+::: notes
+sth
+:::
+
+## Netzwerkanalyse
+
+![](pics/figure_04.jpeg){fig-align="center"}
+
+::: notes
+sth
+:::
+
+## Größtes Familiennetzwerk
+
+![](pics/figure_05.jpeg){fig-align="center"}
+
+::: notes
+sth
+:::
+
+## Zusammenfassung und Beiträge
+
+-   Mehr als ein Drittel der Unternehmen, die mit den heutigen größten Vermögen in Verbindung stehen, wurden vor zweitem WK gegründet
+-   8% der heutigen 1032 größten Vermögen können auf Vermögen des frühen 20. Jahrhunderts zurückgeführt werden
+-   Soziale Schließungstendenzen: Netzwerkanalyse deutet auf generationenübergreifende familiäre Verflechtungen der Superreichen hin
+
+→ Schumpeter's Hotel Methapher trifft nicht auf Deutschlands oberste Vermögensschicht zu
+
+<br>
+
+::: {style="text-align: center"}
+[Kontakt:]{style="color:darkred;text-align:center"} [tisch\@mpifg.de]{style="text-align:center"} \| [dariatisch.github.io]{style="text-align:center"}
+:::
+
+::: notes
+Deskriptives Wissen über die reichsten Familien Deutschlands We speculate that many of today's fortunes are a result of wealth accumulation across more than one generation and benefitted from the 'accumulation of advantages' (Mills 2000)
+
+accumulation and perpetuation of fortunes over many generations is an important feature of top wealth in Germany
+:::
+
+## References
+
+::: {#refs}
+:::
