@@ -7,7 +7,7 @@
 <link href="mm2019_pres_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="mm2019_pres_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="mm2019_pres_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.2.269">
+  <meta name="generator" content="quarto-1.1.189">
 
   <meta name="author" content="  Daria Tisch¹ &amp; Emma Ischinky¹     ¹Max Planck Institute for the Study of Societies">
   <title>Top Vermögen und ihre Ursprünge.   Eine Analyse Deutschlands größter privater Vermögen</title>
@@ -344,19 +344,12 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" class="quarto-title-block center">
+<section id="title-slide" class="center">
   <h1 class="title">Top Vermögen und ihre Ursprünge. <br> Eine Analyse Deutschlands größter privater Vermögen</h1>
   <p class="subtitle">Frühjahrstagung der DGS-Sektion <br> ‘Soziale Ungleichheit und Sozialstrukturanalyse’ <br> <br> 23. März 2023</p>
-
-<div class="quarto-title-authors">
-<div class="quarto-title-author">
-<div class="quarto-title-author-name">
-<br> Daria Tisch¹ &amp; Emma Ischinky¹ <br> <br> ¹Max Planck Institute for the Study of Societies 
-</div>
-</div>
-</div>
-
+  <p class="author"><br> Daria Tisch¹ &amp; Emma Ischinky¹ <br> <br> ¹Max Planck Institute for the Study of Societies</p>
 </section>
+
 <section id="einleitung" class="slide level2">
 <h2>Einleitung</h2>
 <ul>
@@ -486,6 +479,7 @@
 </section>
 <section id="charakteristiken-der-vermögenselite" class="slide level2">
 <h2>Charakteristiken der Vermögenselite</h2>
+<p>Die Vorfahren von 8% der heutigen Top-Vermögen gehörten bereits 1913 zu den Reichsten (= Verwurzelte Vermögen)</p>
 <table style="width:89%;">
 <colgroup>
 <col style="width: 31%">
@@ -595,6 +589,22 @@
           display:block!important;
       }</style></aside>
 </section>
+<section id="netzwerkanalyse-1" class="slide level2">
+<h2>Netzwerkanalyse</h2>
+<aside class="notes">
+<p>sth</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
 <section id="größtes-familiennetzwerk" class="slide level2">
 <h2>Größtes Familiennetzwerk</h2>
 
@@ -615,11 +625,11 @@
 <section id="zusammenfassung-und-beiträge" class="slide level2">
 <h2>Zusammenfassung und Beiträge</h2>
 <ul>
-<li>Mehr als ein Drittel der Unternehmen, die mit den heutigen größten Vermögen in Verbindung stehen, wurden vor zweitem WK gegründet</li>
-<li>8% der heutigen 1032 größten Vermögen können auf Vermögen des frühen 20. Jahrhunderts zurückgeführt werden</li>
+<li>Mehr als ein Drittel der Unternehmen, die mit den heutigen größten Vermögen in Verbindung stehen, wurden vor WK II gegründet</li>
+<li>8% der heutigen 1032 größten Vermögen können auf Vermögen des frühen 20. Jahrhunderts zurückgeführt werden (gleiche Familien)</li>
 <li>Soziale Schließungstendenzen: Netzwerkanalyse deutet auf generationenübergreifende familiäre Verflechtungen der Superreichen hin</li>
 </ul>
-<p>→ Schumpeter’s Hotel Methapher trifft nicht auf Deutschlands oberste Vermögensschicht zu</p>
+<p>→ Schumpeter’s Hotel Metapher trifft nicht auf Deutschlands oberste Vermögensschicht zu!</p>
 <p><br></p>
 <div style="text-align: center">
 <p><span style="color:darkred;text-align:center">Kontakt:</span> <span style="text-align:center">tisch@mpifg.de</span> | <span style="text-align:center">dariatisch.github.io</span></p>
@@ -922,24 +932,7 @@ Starr, Paul. 2019. <em>Entrenchment Wealth, Power, and the Constitution of Democ
         button.classList.add('code-copy-button-checked');
         var currentTitle = button.getAttribute("title");
         button.setAttribute("title", "Copied!");
-        let tooltip;
-        if (window.bootstrap) {
-          button.setAttribute("data-bs-toggle", "tooltip");
-          button.setAttribute("data-bs-placement", "left");
-          button.setAttribute("data-bs-title", "Copied!");
-          tooltip = new bootstrap.Tooltip(button, 
-            { trigger: "manual", 
-              customClass: "code-copy-button-tooltip",
-              offset: [0, -8]});
-          tooltip.show();    
-        }
         setTimeout(function() {
-          if (tooltip) {
-            tooltip.hide();
-            button.removeAttribute("data-bs-title");
-            button.removeAttribute("data-bs-toggle");
-            button.removeAttribute("data-bs-placement");
-          }
           button.setAttribute("title", currentTitle);
           button.classList.remove('code-copy-button-checked');
         }, 1000);
@@ -977,42 +970,24 @@ Starr, Paul. 2019. <em>Entrenchment Wealth, Power, and the Constitution of Democ
           return note.innerHTML;
         });
       }
-      const findCites = (el) => {
-        const parentEl = el.parentElement;
-        if (parentEl) {
-          const cites = parentEl.dataset.cites;
-          if (cites) {
-            return {
-              el,
-              cites: cites.split(' ')
-            };
-          } else {
-            return findCites(el.parentElement)
-          }
-        } else {
-          return undefined;
-        }
-      };
       var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
       for (var i=0; i<bibliorefs.length; i++) {
         const ref = bibliorefs[i];
-        const citeInfo = findCites(ref);
-        if (citeInfo) {
-          tippyHover(citeInfo.el, function() {
-            var popup = window.document.createElement('div');
-            citeInfo.cites.forEach(function(cite) {
-              var citeDiv = window.document.createElement('div');
-              citeDiv.classList.add('hanging-indent');
-              citeDiv.classList.add('csl-entry');
-              var biblioDiv = window.document.getElementById('ref-' + cite);
-              if (biblioDiv) {
-                citeDiv.innerHTML = biblioDiv.innerHTML;
-              }
-              popup.appendChild(citeDiv);
-            });
-            return popup.innerHTML;
+        const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+        tippyHover(ref, function() {
+          var popup = window.document.createElement('div');
+          cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
           });
-        }
+          return popup.innerHTML;
+        });
       }
     });
     </script>

@@ -45,8 +45,8 @@ bibliography: references.bib
 
 -   Vermögenspositionen sind wie Hotels "each class resembles a hotel or an omnibus, always full, but always of different people"[@schumpeter1972]
 
-::: notes 
-sth 
+::: notes
+sth
 :::
 
 ## Konzeptionalisierung und Maße für historische Ursprünge von top Vermögen
@@ -97,6 +97,8 @@ sth
 
 ## Charakteristiken der Vermögenselite
 
+Die Vorfahren von 8% der heutigen Top-Vermögen gehörten bereits 1913 zu den Reichsten (= Verwurzelte Vermögen)
+
 +----------------------+----------------------+-----------------+
 |                      | Verwurzelte Vermögen | Andere Vermögen |
 |                      |                      |                 |
@@ -145,6 +147,19 @@ sth
 sth
 :::
 
+## Netzwerkanalyse
+
+```{r}
+#| echo: false
+#| output: false
+load("pics/lgraph_g_widget.RData")
+
+```
+
+::: notes
+sth
+:::
+
 ## Größtes Familiennetzwerk
 
 ![](pics/figure_05.jpeg){fig-align="center"}
@@ -155,11 +170,11 @@ sth
 
 ## Zusammenfassung und Beiträge
 
--   Mehr als ein Drittel der Unternehmen, die mit den heutigen größten Vermögen in Verbindung stehen, wurden vor zweitem WK gegründet
--   8% der heutigen 1032 größten Vermögen können auf Vermögen des frühen 20. Jahrhunderts zurückgeführt werden
+-   Mehr als ein Drittel der Unternehmen, die mit den heutigen größten Vermögen in Verbindung stehen, wurden vor WK II gegründet
+-   8% der heutigen 1032 größten Vermögen können auf Vermögen des frühen 20. Jahrhunderts zurückgeführt werden (gleiche Familien)
 -   Soziale Schließungstendenzen: Netzwerkanalyse deutet auf generationenübergreifende familiäre Verflechtungen der Superreichen hin
 
-→ Schumpeter's Hotel Methapher trifft nicht auf Deutschlands oberste Vermögensschicht zu
+→ Schumpeter's Hotel Metapher trifft nicht auf Deutschlands oberste Vermögensschicht zu!
 
 <br>
 
