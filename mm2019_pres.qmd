@@ -163,7 +163,7 @@ sth
 
 ## Netzwerkanalyse
 
-::: {style="width:1200px"}
+::: {style="width:1000px"}
 ![](pics/figure_04.jpeg)
 :::
 
