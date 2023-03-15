@@ -33,7 +33,7 @@ bibliography: references.bib
 ## Forschungsfrage und Motivation
 
 ::: {style="font-size: 1.5em"}
-<br> [Was sind die historischen Hintergründe heutiger top Vermögen in Deutschland?]{style="color:darkred"} <br>
+<br> [Was sind die historischen Ursprünge heutiger top Vermögen in Deutschland?]{style="color:darkred"} <br>
 :::
 
 -   Top Vermögen und ökonomische Prozesse
@@ -43,31 +43,53 @@ bibliography: references.bib
 
 ## Theoretischer Hintergrund
 
--   Vermögenspositionen sind wie Hotels "each class resembles a hotel or an omnibus, always full, but always of different people"[@schumpeter1972]
+::: columns
+::: {.column width="20%"}
+![](pics/hotel.png){.absolute top="100" left="0" width="150"} <br>
 
-::: notes
-sth
+![](pics/leiter.png){.absolute top="300" left="0" width="150"}
+
+![](pics/genealogy.png){.absolute top="500" left="0" width="150"}
 :::
 
-## Konzeptionalisierung und Maße für historische Ursprünge von top Vermögen
+::: {.column width="80%"}
+-   Vermögenspositionen sind wie Hotels "each class resembles a hotel or an omnibus, always full, but always of different people"[@schumpeter1972] <br> <br> <br>
+-   Theorien über vererbte Vorteile hingegen argumentieren, dass intergenerationale Mobilität an der Spitze gering [@hansen2021; @beckert2022] 
+      - Direkte intergenerationale Transfers
+      - ‘opportunity hoarding’ [@tilly1998]
+      - Perpetuierung von Vermögen durch soziale Schließung und wirtschaftliche Allianzbildung [@farrell1993; @zeitlin1974]
+      
+:::
+:::
 
+::: notes
+Theories on inherited advantage argue that capitalist societies offer wealthy families plenty of channels to 'hoard opportunities' and perpetuate their fortunes over generations (Beckert 2022; Hansen and Toft 2021; Kuusela 2018; Tilly 1998).[\[1\]](#_ftn1) Accordingly, this stream of literature suggests low intergenerational mobility at the top of the wealth distribution (Medeiros and de Souza 2015; Toft and Hansen 2022). Low mobility at the top seems to hold also in the long run as, for example, Barone and Mocetti (2020, 1864) provide evidence for wealth inheritance over six generations, indicating the existence of a 'glass floor' protecting descendants of the super-rich from losing their fortunes.
+:::
+
+## Konzeptionalisierung und Messung der historische Ursprünge von top Vermögen
+
+-   Intergenerationale Mobilität auf lange Sicht ("Seltene Namen Ansatz")
 -   Self-made versus geerbt [@hansen2014; @korom2017]
 -   "Entrenchment" / Verwurzelung [@starr2019]
-    -   Historischen Ursprünge als ein wichtiger Aspekt der Verwuzelung der ökonomischen Elite
-    -   Indikator für die Verwurzelung von Vermögen in Familienlininien: Vermögen überlebt ökonomische und soziale of the entrenchment of a fortune within a family is whether it has survived economic and social Umbrüche (Regimewechsel, wirtschaftliche Krisen, Kriege)
+    -   Historischen Ursprünge als ein wichtiger Aspekt der Verwurzelung der ökonomischen Elite
+    -   Indikator für die Verwurzelung von Vermögen in Familienlininien: Vermögen überlebt ökonomische und soziale  Umbrüche (Regimewechsel, wirtschaftliche Krisen, Kriege)
+
 
 ::: notes
 This conceptualization of historical origins is widely applied and has been found useful to explain social closure and mobility within the wealth elite (Hansen 2014; Korom, Lutter, and Beckert 2017) but also to better understand economic processes (Morck, Stangeland, and Yeung 2000).
 
 "society's entrenched features---the foundational features that are hardest to change---shape what kind of society it is" (Starr 2019, xii).
+
+
+Barone and Mocetti (2020, 1864) provide evidence for wealth inheritance over six generations, indicating the existence of a ‘glass floor’ protecting descendants of the super-rich from losing their fortunes.
 :::
 
 ## Empirisches Vorgehen / Analysen
 
--   Analyse der Gründungsjahre der Firmen, die mit heutigen Vermögen in Zusammenhang stehen
--   Identifizierung der verwurzelten Vermögen
--   Analyse, inwiefern sich die verwurzelten von jüngeren Vermögen unterscheiden (Deskriptiv, Regression)
--   Netzwerkanalyse: Familiäre Verbindungen zwischen größten Vermögen?
+1.  Analyse der Gründungsjahre der Firmen, die mit heutigen Vermögen in Zusammenhang stehen
+2.  Identifizierung der verwurzelten Vermögen
+3.  Analyse, inwiefern sich die verwurzelten von jüngeren Vermögen unterscheiden (Deskriptiv, Regression)
+4.   Netzwerkanalyse: Familiäre Verbindungen zwischen größten Vermögen?
 
 ::: notes
 sth
@@ -141,28 +163,29 @@ sth
 
 ## Netzwerkanalyse
 
-![](pics/figure_04.jpeg){fig-align="center"}
+::: {style="width:1200px"}
+![](pics/figure_04.jpeg)
+:::
 
 ::: notes
 sth
 :::
 
-## Netzwerkanalyse
+## Größtes Familiennetzwerk {.scrollable}
 
 ```{r}
 #| echo: false
 #| output: false
-load("pics/lgraph_g_widget.RData")
+source("../../../code_mm2019/11_network_analyses.R")
 
 ```
 
-::: notes
-sth
-:::
+```{r}
+#| echo: false
+#| output: true
+lgraph_g_widget
 
-## Größtes Familiennetzwerk
-
-![](pics/figure_05.jpeg){fig-align="center"}
+```
 
 ::: notes
 sth
