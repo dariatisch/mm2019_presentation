@@ -33,10 +33,10 @@ bibliography: references.bib
 ## Forschungsfrage und Motivation
 
 ::: {style="font-size: 1.5em"}
-<br> [Was sind die historischen Ursprünge heutiger top Vermögen in Deutschland?]{style="color:darkred"} <br>
+<br> [Was sind die historischen Ursprünge heutiger Top Vermögen in Deutschland?]{style="color:darkred"} <br>
 :::
 
--   Top Vermögen und ökonomische Prozesse
+-   Ökonomische Kontinuität
 -   Soziale Schließungsprozesse
 -   Verfestigte Machtstrukturen
 -   Legitimierung von Reichtum
@@ -54,11 +54,10 @@ bibliography: references.bib
 
 ::: {.column width="80%"}
 -   Vermögenspositionen sind wie Hotels "each class resembles a hotel or an omnibus, always full, but always of different people"[@schumpeter1972] <br> <br> <br>
--   Theorien über vererbte Vorteile hingegen argumentieren, dass intergenerationale Mobilität an der Spitze gering [@hansen2021; @beckert2022] 
-      - Direkte intergenerationale Transfers
-      - ‘opportunity hoarding’ [@tilly1998]
-      - Perpetuierung von Vermögen durch soziale Schließung und wirtschaftliche Allianzbildung [@farrell1993; @zeitlin1974]
-      
+-   Theorien über vererbte Vorteile hingegen argumentieren, dass intergenerationale Mobilität an der Spitze gering [@hansen2021; @beckert2022]
+    -   Direkte intergenerationale Transfers
+    -   'opportunity hoarding' [@tilly1998]
+    -   Perpetuierung von Vermögen durch soziale Schließung und wirtschaftliche Allianzbildung [@farrell1993; @zeitlin1974]
 :::
 :::
 
@@ -66,30 +65,28 @@ bibliography: references.bib
 Theories on inherited advantage argue that capitalist societies offer wealthy families plenty of channels to 'hoard opportunities' and perpetuate their fortunes over generations (Beckert 2022; Hansen and Toft 2021; Kuusela 2018; Tilly 1998).[\[1\]](#_ftn1) Accordingly, this stream of literature suggests low intergenerational mobility at the top of the wealth distribution (Medeiros and de Souza 2015; Toft and Hansen 2022). Low mobility at the top seems to hold also in the long run as, for example, Barone and Mocetti (2020, 1864) provide evidence for wealth inheritance over six generations, indicating the existence of a 'glass floor' protecting descendants of the super-rich from losing their fortunes.
 :::
 
-## Konzeptionalisierung und Messung der historische Ursprünge von top Vermögen
+## Konzeptionalisierung und Messung der historische Ursprünge von Top Vermögen
 
--   Intergenerationale Mobilität auf lange Sicht ("Seltene Namen Ansatz")
+-   Intergenerationale Mobilität auf lange Sicht ("Seltene Namen Ansatz")[@barone2020; @clark2013]
 -   Self-made versus geerbt [@hansen2014; @korom2017]
--   "Entrenchment" / Verwurzelung [@starr2019]
+-   "Entrenchment" (Verwurzelung) [@starr2019]
     -   Historischen Ursprünge als ein wichtiger Aspekt der Verwurzelung der ökonomischen Elite
-    -   Indikator für die Verwurzelung von Vermögen in Familienlininien: Vermögen überlebt ökonomische und soziale  Umbrüche (Regimewechsel, wirtschaftliche Krisen, Kriege)
-
+    -   Indikator für die Verwurzelung von Vermögen in Familienlininien: Vermögen überlebt ökonomische und soziale Umbrüche (Regimewechsel, wirtschaftliche Krisen, Kriege)
 
 ::: notes
 This conceptualization of historical origins is widely applied and has been found useful to explain social closure and mobility within the wealth elite (Hansen 2014; Korom, Lutter, and Beckert 2017) but also to better understand economic processes (Morck, Stangeland, and Yeung 2000).
 
 "society's entrenched features---the foundational features that are hardest to change---shape what kind of society it is" (Starr 2019, xii).
 
-
-Barone and Mocetti (2020, 1864) provide evidence for wealth inheritance over six generations, indicating the existence of a ‘glass floor’ protecting descendants of the super-rich from losing their fortunes.
+Barone and Mocetti (2020, 1864) provide evidence for wealth inheritance over six generations, indicating the existence of a 'glass floor' protecting descendants of the super-rich from losing their fortunes.
 :::
 
 ## Empirisches Vorgehen / Analysen
 
-1.  Analyse der Gründungsjahre der Firmen, die mit heutigen Vermögen in Zusammenhang stehen
-2.  Identifizierung der verwurzelten Vermögen
+1.  Identifizierung der verwurzelten Vermögen
+2.  Analyse der Gründungsjahre der Firmen, die mit heutigen Vermögen in Zusammenhang stehen
 3.  Analyse, inwiefern sich die verwurzelten von jüngeren Vermögen unterscheiden (Deskriptiv, Regression)
-4.   Netzwerkanalyse: Familiäre Verbindungen zwischen größten Vermögen?
+4.  Netzwerkanalyse: Familiäre Verbindungen zwischen größten Vermögen?
 
 ::: notes
 sth
@@ -104,12 +101,12 @@ sth
 
 ::: {.column width="60%"}
 -   Manager Magazin Reichenliste 2019
-    -   Deutschlands größten 1032 Vermögen
+    -   Deutschlands größte 1032 Vermögen
     -   Familiennamen
     -   Vermögenshöhe / Rang
 -   Rudolf Martin's Reichenliste 1913/1914 [@martin1912]
 -   Wikidata
-    -   Familienmitglieder
+    -   Familienmitglieder / genealogische Daten
     -   Verknüpfung über ein Jahrhundert
 :::
 :::
@@ -119,7 +116,7 @@ sth
 
 ## Charakteristiken der Vermögenselite
 
-Die Vorfahren von 8% der heutigen Top-Vermögen gehörten bereits 1913 zu den Reichsten (= Verwurzelte Vermögen)
+Die Vorfahren von 8% der heutigen Top Vermögen gehörten bereits 1913 zu den Reichsten (= Verwurzelte Vermögen)
 
 +----------------------+----------------------+-----------------+
 |                      | Verwurzelte Vermögen | Andere Vermögen |
@@ -139,7 +136,7 @@ Die Vorfahren von 8% der heutigen Top-Vermögen gehörten bereits 1913 zu den Re
 
 ## Top Vermögen nach Gründungsjahren
 
-![](pics/figure_01.jpeg){fig-align="center"}
+![](pics/figure_01_2.png){fig-align="center"}
 
 ::: notes
 sth
@@ -197,7 +194,7 @@ sth
 -   8% der heutigen 1032 größten Vermögen können auf Vermögen des frühen 20. Jahrhunderts zurückgeführt werden (gleiche Familien)
 -   Soziale Schließungstendenzen: Netzwerkanalyse deutet auf generationenübergreifende familiäre Verflechtungen der Superreichen hin
 
-→ Schumpeter's Hotel Metapher trifft nicht auf Deutschlands oberste Vermögensschicht zu!
+→ Schumpeter's Hotel Metapher trifft auf Deutschlands oberste Vermögensschicht nicht zu!
 
 <br>
 
