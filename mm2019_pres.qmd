@@ -114,25 +114,36 @@ sth
 ::: notes
 :::
 
-## Charakteristiken der Vermögenselite
+## Erstes Kernergebnis{.larger}
+<br>
+<br>
+<br>
+<br>
+<br>
 
-Die Vorfahren von 8% der heutigen Top Vermögen gehörten bereits 1913 zu den Reichsten (= Verwurzelte Vermögen)
+::: {style="text-align: center;font-size: 1.5em"}
+[Die Vorfahren von 8% der heutigen Top Vermögen gehörten bereits 1913 zu den Reichsten  <br>
+→ 8% Verwurzelte Vermögen]{style="color:darkred;text-align:center"}
+:::
 
-+----------------------+----------------------+-----------------+
-|                      | Verwurzelte Vermögen | Andere Vermögen |
-|                      |                      |                 |
-|                      | N = 82               | N= 950          |
-|                      |                      |                 |
-|                      | Shares               | Shares          |
-+======================+======================+=================+
-| Adel                 | 35%                  | 1%              |
-+----------------------+----------------------+-----------------+
-| Unternehmen verkauft | 24%                  | 18%             |
-+----------------------+----------------------+-----------------+
-| Familienstiftung     | 5%                   | 7%              |
-+----------------------+----------------------+-----------------+
-| Unternehmensstiftung | 1%                   | 3%              |
-+----------------------+----------------------+-----------------+
+
+
+
+<!-- +----------------------+----------------------+-----------------+ -->
+<!-- |                      | Verwurzelte Vermögen | Andere Vermögen | -->
+<!-- |                      |                      |                 | -->
+<!-- |                      | N = 82               | N= 950          | -->
+<!-- |                      |                      |                 | -->
+<!-- |                      | Shares               | Shares          | -->
+<!-- +======================+======================+=================+ -->
+<!-- | Adel                 | 35%                  | 1%              | -->
+<!-- +----------------------+----------------------+-----------------+ -->
+<!-- | Unternehmen verkauft | 24%                  | 18%             | -->
+<!-- +----------------------+----------------------+-----------------+ -->
+<!-- | Familienstiftung     | 5%                   | 7%              | -->
+<!-- +----------------------+----------------------+-----------------+ -->
+<!-- | Unternehmensstiftung | 1%                   | 3%              | -->
+<!-- +----------------------+----------------------+-----------------+ -->
 
 ## Top Vermögen nach Gründungsjahren
 
@@ -147,7 +158,8 @@ sth
 ![](pics/figure_02.jpeg){fig-align="center"}
 
 ::: notes
-sth
+- blaue Banane
+- Dominanz des Adels
 :::
 
 ## Regressionsergebnisse: Rangplatz
@@ -155,7 +167,7 @@ sth
 ![](pics/figure_03.jpeg){fig-align="center"}
 
 ::: notes
-sth
+Verwurzelte Vermögen haben niedrigere Koffizienten, also höhere Ränge auf der Reichenliste.
 :::
 
 ## Netzwerkanalyse
