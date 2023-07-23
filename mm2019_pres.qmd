@@ -1,7 +1,7 @@
 ---
-title: "Top Vermögen und ihre Ursprünge.  <br> Eine Analyse Deutschlands größter privater Vermögen"
-author: "<br>  Daria Tisch¹ & Emma Ischinky¹ <br>  <br> ¹Max Planck Institute for the Study of Societies"
-subtitle: "Frühjahrstagung der DGS-Sektion <br>  'Soziale Ungleichheit und Sozialstrukturanalyse'  <br>  <br>  23. März 2023"  
+title: "Spitzenvermögen und ihre Ursprünge. <br>  Eine Analyse Deutschlands größter privater Vermögen <br> anhand von Reichenlisten und genealogischen Daten (1913-2019)"
+author: "<br>  Daria Tisch <br>  <br> Max-Planck-Institut für Gesellschaftsforschung"
+subtitle: "<br> 25. Juli 2023"  
 format: 
   revealjs:
     theme: [default, custom.scss]
@@ -28,12 +28,18 @@ bibliography: references.bib
 
 -   Sozialer Hintergrund dieser Gruppe
 
--   Soziale Mobilität innerhalb dieser Gruppe?
+-   Soziale Zusammensetzung dieser Gruppe
+
+-   Soziale Mobilität innerhalb dieser Gruppe
+
+## Einbettung in mein größeres Projekt zu Superreichen
+
+![](pics/projekte.png)
 
 ## Forschungsfrage und Motivation
 
 ::: {style="font-size: 1.5em"}
-<br> [Was sind die historischen Ursprünge heutiger Top Vermögen in Deutschland?]{style="color:darkred"} <br>
+<br> [Was sind die historischen Ursprünge heutiger Spitzenvermögen in Deutschland?]{style="color:darkred"} <br>
 :::
 
 -   Ökonomische Kontinuität
@@ -81,15 +87,17 @@ This conceptualization of historical origins is widely applied and has been foun
 Barone and Mocetti (2020, 1864) provide evidence for wealth inheritance over six generations, indicating the existence of a 'glass floor' protecting descendants of the super-rich from losing their fortunes.
 :::
 
-## Empirisches Vorgehen / Analysen
+## Empirisches Vorgehen
 
-1.  Identifizierung der verwurzelten Vermögen
-2.  Analyse der Gründungsjahre der Firmen, die mit heutigen Vermögen in Zusammenhang stehen
-3.  Analyse, inwiefern sich die verwurzelten von jüngeren Vermögen unterscheiden (Deskriptiv, Regression)
-4.  Netzwerkanalyse: Familiäre Verbindungen zwischen größten Vermögen?
+1.  Digitalisierung der Reichenlisten von 1913 (halbautomatisiert mittels OCR)
+2.  Identifizierung der verwurzelten Vermögen (händisch)
+3.  Analyse der Gründungsjahre der Firmen, die mit heutigen Vermögen in Zusammenhang stehen (Bivariate Analysen)
+4.  Analyse, inwiefern sich die verwurzelten von jüngeren Vermögen unterscheiden (Bivariate Analysen, Multivariable Regression)
+5.  Sammlung von genealogischen Daten mittels Wikidata API
+6.  Netzwerkanalyse: Familiäre Verbindungen zwischen größten Vermögen visualisieren
 
 ::: notes
-sth
+OCR: Optical Character Recognition, optische Zeichenerkennung
 :::
 
 ## Datengrundlage
@@ -114,35 +122,42 @@ sth
 ::: notes
 :::
 
-## Erstes Kernergebnis{.larger}
-<br>
-<br>
-<br>
-<br>
-<br>
+## Erstes Kernergebnis {.larger}
+
+<br> <br> <br> <br> <br>
 
 ::: {style="text-align: center;font-size: 1.5em"}
-[Die Vorfahren von 8% der heutigen Top Vermögen gehörten bereits 1913 zu den Reichsten  <br>
-→ 8% Verwurzelte Vermögen]{style="color:darkred;text-align:center"}
+[Die Vorfahren von 8% der heutigen Top Vermögen gehörten bereits 1913 zu den Reichsten <br> → 8% Verwurzelte Vermögen]{style="color:darkred;text-align:center"}
 :::
 
-
-
-
 <!-- +----------------------+----------------------+-----------------+ -->
+
 <!-- |                      | Verwurzelte Vermögen | Andere Vermögen | -->
+
 <!-- |                      |                      |                 | -->
+
 <!-- |                      | N = 82               | N= 950          | -->
+
 <!-- |                      |                      |                 | -->
+
 <!-- |                      | Shares               | Shares          | -->
+
 <!-- +======================+======================+=================+ -->
+
 <!-- | Adel                 | 35%                  | 1%              | -->
+
 <!-- +----------------------+----------------------+-----------------+ -->
+
 <!-- | Unternehmen verkauft | 24%                  | 18%             | -->
+
 <!-- +----------------------+----------------------+-----------------+ -->
+
 <!-- | Familienstiftung     | 5%                   | 7%              | -->
+
 <!-- +----------------------+----------------------+-----------------+ -->
+
 <!-- | Unternehmensstiftung | 1%                   | 3%              | -->
+
 <!-- +----------------------+----------------------+-----------------+ -->
 
 ## Top Vermögen nach Gründungsjahren
@@ -158,8 +173,8 @@ sth
 ![](pics/figure_02.jpeg){fig-align="center"}
 
 ::: notes
-- blaue Banane
-- Dominanz des Adels
+-   blaue Banane
+-   Dominanz des Adels
 :::
 
 ## Regressionsergebnisse: Rangplatz
@@ -200,13 +215,15 @@ lgraph_g_widget
 sth
 :::
 
-## Zusammenfassung und Beiträge
+## Zusammenfassung
 
--   Mehr als ein Drittel der Unternehmen, die mit den heutigen größten Vermögen in Verbindung stehen, wurden vor WK II gegründet
+-   Mehr als ein Drittel der Unternehmen, die mit den heutigen größten Vermögen in Verbindung stehen, wurden vor dem erstem WK gegründet
 -   8% der heutigen 1032 größten Vermögen können auf Vermögen des frühen 20. Jahrhunderts zurückgeführt werden (gleiche Familien)
--   Soziale Schließungstendenzen: Netzwerkanalyse deutet auf generationenübergreifende familiäre Verflechtungen der Superreichen hin
+-   Soziale Schließungstendenzen: Netzwerkanalyse deutet auf generationenübergreifende familiäre Verflechtungen der Superreichen hin → Schumpeter's Hotel Metapher
 
-→ Schumpeter's Hotel Metapher trifft auf Deutschlands oberste Vermögensschicht nicht zu!
+### Ausblick
+- Mechanismen des Erhaltes von Spitzenvermögen untersuchen
+- Reichtum und Klimawandel
 
 <br>
 
