@@ -71,26 +71,26 @@ bibliography: references.bib
 Theories on inherited advantage argue that capitalist societies offer wealthy families plenty of channels to 'hoard opportunities' and perpetuate their fortunes over generations (Beckert 2022; Hansen and Toft 2021; Kuusela 2018; Tilly 1998).[\[1\]](#_ftn1) Accordingly, this stream of literature suggests low intergenerational mobility at the top of the wealth distribution (Medeiros and de Souza 2015; Toft and Hansen 2022). Low mobility at the top seems to hold also in the long run as, for example, Barone and Mocetti (2020, 1864) provide evidence for wealth inheritance over six generations, indicating the existence of a 'glass floor' protecting descendants of the super-rich from losing their fortunes.
 :::
 
-## Konzeptionalisierung und Messung der historische Ursprünge von Top Vermögen
+<!-- ## Konzeptionalisierung und Messung der historische Ursprünge von Top Vermögen -->
 
--   Intergenerationale Mobilität auf lange Sicht ("Seltene Namen Ansatz")[@barone2020; @clark2013]
--   Self-made versus geerbt [@hansen2014; @korom2017]
--   "Entrenchment" (Verwurzelung) [@starr2019]
-    -   Historischen Ursprünge als ein wichtiger Aspekt der Verwurzelung der ökonomischen Elite
-    -   Indikator für die Verwurzelung von Vermögen in Familienlininien: Vermögen überlebt ökonomische und soziale Umbrüche (Regimewechsel, wirtschaftliche Krisen, Kriege)
+<!-- -   Intergenerationale Mobilität auf lange Sicht ("Seltene Namen Ansatz")[@barone2020; @clark2013] -->
+<!-- -   Self-made versus geerbt [@hansen2014; @korom2017] -->
+<!-- -   "Entrenchment" (Verwurzelung) [@starr2019] -->
+<!--     -   Historischen Ursprünge als ein wichtiger Aspekt der Verwurzelung der ökonomischen Elite -->
+<!--     -   Indikator für die Verwurzelung von Vermögen in Familienlininien: Vermögen überlebt ökonomische und soziale Umbrüche (Regimewechsel, wirtschaftliche Krisen, Kriege) -->
 
-::: notes
-This conceptualization of historical origins is widely applied and has been found useful to explain social closure and mobility within the wealth elite (Hansen 2014; Korom, Lutter, and Beckert 2017) but also to better understand economic processes (Morck, Stangeland, and Yeung 2000).
+<!-- ::: notes -->
+<!-- This conceptualization of historical origins is widely applied and has been found useful to explain social closure and mobility within the wealth elite (Hansen 2014; Korom, Lutter, and Beckert 2017) but also to better understand economic processes (Morck, Stangeland, and Yeung 2000). -->
 
-"society's entrenched features---the foundational features that are hardest to change---shape what kind of society it is" (Starr 2019, xii).
+<!-- "society's entrenched features---the foundational features that are hardest to change---shape what kind of society it is" (Starr 2019, xii). -->
 
-Barone and Mocetti (2020, 1864) provide evidence for wealth inheritance over six generations, indicating the existence of a 'glass floor' protecting descendants of the super-rich from losing their fortunes.
-:::
+<!-- Barone and Mocetti (2020, 1864) provide evidence for wealth inheritance over six generations, indicating the existence of a 'glass floor' protecting descendants of the super-rich from losing their fortunes. -->
+<!-- ::: -->
 
 ## Empirisches Vorgehen
 
 1.  Digitalisierung der Reichenlisten von 1913 (halbautomatisiert mittels OCR)
-2.  Identifizierung der verwurzelten Vermögen (händisch)
+2.  Identifizierung der verwurzelten Vermögen (händisch) [@starr2019]
 3.  Analyse der Gründungsjahre der Firmen, die mit heutigen Vermögen in Zusammenhang stehen (Bivariate Analysen)
 4.  Analyse, inwiefern sich die verwurzelten von jüngeren Vermögen unterscheiden (Bivariate Analysen, Multivariable Regression)
 5.  Sammlung von genealogischen Daten mittels Wikidata API
@@ -98,6 +98,10 @@ Barone and Mocetti (2020, 1864) provide evidence for wealth inheritance over six
 
 ::: notes
 OCR: Optical Character Recognition, optische Zeichenerkennung
+
+-   "Entrenchment" (Verwurzelung) [@starr2019]
+    -   Historischen Ursprünge als ein wichtiger Aspekt der Verwurzelung der ökonomischen Elite
+    -   Indikator für die Verwurzelung von Vermögen in Familienlininien: Vermögen überlebt ökonomische und soziale Umbrüche (Regimewechsel, wirtschaftliche Krisen, Kriege)
 :::
 
 ## Datengrundlage
